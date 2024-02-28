@@ -6,7 +6,6 @@ from sqlalchemy import (Column, Uuid, String, DateTime, Boolean, DECIMAL, Intege
 
 motor = create_engine("sqlite:///banco_de_dados.sqliter", echo=False)
 
-
 class Base(DeclarativeBase):
     pass
 
